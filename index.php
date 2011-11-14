@@ -8,8 +8,6 @@ $phone = new Phone(1);
 echo $phone;
 ?>
 
-This is a changed.
-
 <pre>
 <?php
 
