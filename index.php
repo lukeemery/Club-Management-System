@@ -8,10 +8,7 @@ $phone = new Phone(1);
 echo $phone;
 ?>
 
-Testing :)
->>THIS WAS JUST ADDED BY LIAMMMMMMM!
-
-Added by luke
+Liam, I am going to push this to you.
 
 <pre>
 <?php
