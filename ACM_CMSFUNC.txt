@@ -1,0 +1,47 @@
+class Club
+	funct Club->GetAbout(int x)
+	funct Club->SetAbout(string x)
+	funct Club->GetName(int x)
+	funct Club->SetName(int x, string y)
+	funct Club->GetCreationDate(int x)
+	funct Club->GetNumMembers(string x)
+
+class Members
+	funct Members->GetName(int x)
+	funct Members->SetName(int x, string y)
+	funct Members->GetRank(int x)
+	funct Members->SetRank(int x, string y)
+	funct Members->GetEmail(int x)
+	funct Members->SetEmail(int x, string y)
+	funct Members->GetDuePaid(int x)
+	funct Members->SetDuePaid(int x, bool y)
+
+class Budget
+	funct Budget->GetTransDate(int x)
+	funct Budget->GetCredit(int x)
+	funct Budget->SetCredit(int x, int y)
+	funct Budget->GetDebit(int x)
+	funct Budget->SetDebit(int x, int y)
+
+class Gallery
+	funct Gallery->UploadImg(string x)
+	funct Gallery->GetNumImg()
+	funct Gallery->GetImgName(int x)
+	funct Gallery->GetImgSize(int x)
+	funct Gallery->GetImgPath(int x)
+	funct Gallery->GetImgDate(int x)
+
+Class News
+	funct News->GetPostBody(int x)
+	funct News->SetPostBody(int x, string y)
+	funct News->GetPostTitle(int x)
+	funct News->SetPostTitle(int x, string y)
+	funct News->GetPostDate(int x)
+	funct News->GetPostAuthor(int x)
+	funct News->SetPostAuthor(int x, int y)
+	funct News->GetNumPosts()
+	
+class Time
+	funct Time->GetTime()
+	funct Time->SetTimeZone(int x)
+	funct Time->ToString(DateTime x)	
