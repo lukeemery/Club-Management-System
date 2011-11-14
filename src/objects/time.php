@@ -6,4 +6,8 @@ class Date {
 	public function __construct() {
 	
 	}
+	
+	function __toString() {
+		//Return a string that is the default print
+	}
 }
